@@ -1,0 +1,174 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "name": "react",
+      "version": "17.0.2",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "author": "Facebook",
+      "downloads": 1000000
+    },
+    {
+      "id": 2,
+      "name": "axios",
+      "version": "0.21.4",
+      "description": "Promise based HTTP client for the browser and Node.js",
+      "author": "Matt Zabriskie",
+      "downloads": 800000
+    },
+    {
+      "id": 3,
+      "name": "lodash",
+      "version": "4.17.21",
+      "description": "A modern JavaScript utility library delivering modularity, performance & extras.",
+      "author": "John-David Dalton",
+      "downloads": 1200000
+    },
+    {
+      "id": 4,
+      "name": "express",
+      "version": "4.17.1",
+      "description": "Fast, unopinionated, minimalist web framework for Node.js",
+      "author": "TJ Holowaychuk",
+      "downloads": 900000
+    },
+    {
+      "id": 5,
+      "name": "babel-core",
+      "version": "6.26.3",
+      "description": "Babel compiler core.",
+      "author": "Babel",
+      "downloads": 1500000
+    },
+    {
+      "id": 6,
+      "name": "webpack",
+      "version": "5.46.0",
+      "description": "A module bundler for JavaScript applications.",
+      "author": "Tobias Koppers",
+      "downloads": 2000000
+    },
+    {
+      "id": 7,
+      "name": "jest",
+      "version": "27.3.1",
+      "description": "Delightful JavaScript Testing.",
+      "author": "Facebook",
+      "downloads": 1200000
+    },
+    {
+      "id": 8,
+      "name": "eslint",
+      "version": "7.32.0",
+      "description": "A pluggable and configurable linter tool for identifying and fixing problems in JavaScript code.",
+      "author": "Nicholas C. Zakas",
+      "downloads": 1800000
+    },
+    {
+      "id": 9,
+      "name": "prettier",
+      "version": "2.3.0",
+      "description": "An opinionated code formatter.",
+      "author": "Prettier",
+      "downloads": 900000
+    },
+    {
+      "id": 10,
+      "name": "moment",
+      "version": "2.29.1",
+      "description": "Parse, validate, manipulate, and display dates in JavaScript.",
+      "author": "Iskren Chernev",
+      "downloads": 1300000
+    },
+    {
+      "id": 11,
+      "name": "ramda",
+      "version": "0.27.1",
+      "description": "A practical functional library for JavaScript programmers.",
+      "author": "Ramda",
+      "downloads": 700000
+    },
+    {
+      "id": 12,
+      "name": "lodash-es",
+      "version": "4.17.21",
+      "description": "A modern JavaScript utility library delivering modularity, performance & extras (ES module version).",
+      "author": "John-David Dalton",
+      "downloads": 400000
+    },
+    {
+      "id": 13,
+      "name": "axios-mock-adapter",
+      "version": "1.19.0",
+      "description": "Axios adapter that allows to easily mock requests.",
+      "author": "Pim Lieuwes",
+      "downloads": 60000
+    },
+    {
+      "id": 14,
+      "name": "redux",
+      "version": "4.1.1",
+      "description": "Predictable state container for JavaScript apps.",
+      "author": "Dan Abramov",
+      "downloads": 1200000
+    },
+    {
+      "id": 15,
+      "name": "react-router-dom",
+      "version": "5.2.0",
+      "description": "Declarative routing for React.js.",
+      "author": "React Training",
+      "downloads": 900000
+    },
+    {
+      "id": 16,
+      "name": "graphql",
+      "version": "15.7.2",
+      "description": "A query language for your API.",
+      "author": "Facebook",
+      "downloads": 800000
+    },
+    {
+      "id": 17,
+      "name": "yup",
+      "version": "0.32.9",
+      "description": "A JavaScript schema builder for value parsing and validation.",
+      "author": "Kadir Oğuzhan Akkuş",
+      "downloads": 300000
+    },
+    {
+      "id": 18,
+      "name": "axios-retry",
+      "version": "3.1.9",
+      "description": "Configurable axios interceptor to retry requests.",
+      "author": "cw",
+      "downloads": 70000
+    },
+    {
+      "id": 19,
+      "name": "classnames",
+      "version": "2.3.1",
+      "description": "A simple utility for conditionally joining class names together.",
+      "author": "Jed Watson",
+      "downloads": 500000
+    },
+    {
+      "id": 20,
+      "name": "react-query",
+      "version": "3.20.1",
+      "description": "Hooks for fetching, caching and updating asynchronous data in React.",
+      "author": "Tanner Linsley",
+      "downloads": 600000
+    }
+  ],
+  "favourite": [
+    {
+      "id": 2,
+      "name": "axios",
+      "version": "0.21.4",
+      "description": "Promise based HTTP client for the browser and Node.js",
+      "author": "Matt Zabriskie",
+      "downloads": 800000
+    }
+  ]
+}
