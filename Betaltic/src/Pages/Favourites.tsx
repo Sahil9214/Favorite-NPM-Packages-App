@@ -15,7 +15,7 @@ const Favourites: React.FC<FavoritesProps> = ({
   const getData = async () => {
     setLoading(true);
     try {
-      let res = await axios.get(`http://localhost:8080/favourite`);
+      let res = await axios.get(`https://betalctic-backend.onrender.com/favourite`);
       setVal(res.data);
       setLoading(false);
     } catch (err) {
@@ -26,7 +26,7 @@ const Favourites: React.FC<FavoritesProps> = ({
   const handleDelete = async (id: Number) => {
     setLoading(true);
     try {
-      let res = await axios.delete(`http://localhost:8080/favourite/${id}`);
+      let res = await axios.delete(`https://betalctic-backend.onrender.com/favourite/${id}`);
       toast({
         title: "Delete Successfull.",
         description: `${id} Delete Successfull`,

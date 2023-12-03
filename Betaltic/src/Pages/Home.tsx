@@ -18,7 +18,7 @@ const Home: React.FC<HomeProps> = ({ handleAddToFavorite }) => {
   const toast = useToast();
   const handleDelete = async (id: Number) => {
     try {
-      let res = await axios.delete(`http://localhost:8080/packages/${id}`);
+      let res = await axios.delete(`https://betalctic-backend.onrender.com/packages/${id}`);
       toast({
         title: "Delete Successfull.",
         description: `${id} Delete Successfull`,
@@ -33,7 +33,7 @@ const Home: React.FC<HomeProps> = ({ handleAddToFavorite }) => {
   };
   const handleFavouritesData = async (el: data) => {
     try {
-      let res = await axios.post(`http://localhost:8080/favourite`, el);
+      let res = await axios.post(`https://betalctic-backend.onrender.com/favourite`, el);
       console.log("res",res.data)
     } catch (err) {
       console.log("err", err);
